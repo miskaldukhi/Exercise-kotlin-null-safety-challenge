@@ -28,10 +28,10 @@ fun main() {
 
 
     try {
-        val area1 = calculateArea(5, 10) // Valid inputs
+        val area1 = calculateArea(5, 10)
         println("Area 1: $area1")
 
-        val area2 = calculateArea(-5, 10) // Invalid width, will throw exception
+        val area2 = calculateArea(-5, 10)
         println("Area 2: $area2")
     } catch (e: IllegalArgumentException) {
         println("Error: ${e.message}")
